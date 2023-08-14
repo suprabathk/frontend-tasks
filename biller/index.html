@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biller</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="bill-card">
+        <h1>Bill Calculator</h1>
+        <form id="my-form">
+            <div id="fieldBox">
+                <label for="amount">Enter bill amount</label>
+                <input type="number" name="amount" id="amount" >
+            </div>
+            <div id="fieldBox">
+                <label for="tip">Enter tip amount</label>
+                <input type="number" name="tip" id="tip" >
+            </div>
+            <button type="submit" id="submitBtn">Calculate</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

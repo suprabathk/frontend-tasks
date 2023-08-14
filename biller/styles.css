@@ -1,0 +1,22 @@
+body {
+    background: #000;
+}
+
+
+#bill-card {
+    background-color: white; padding: 5%; width: fit-content; margin: auto; border-radius: 3%;
+}
+
+#my-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 600;
+}
+
+#fieldBox {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0;
+    width: 100%;
+}
